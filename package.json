@@ -1,55 +1,55 @@
 {
-	"name": "util.rstrip",
-	"version": "0.0.2",
-	"author": "jmquigley <jmquigley@outlook.com>",
-	"description": "Removes newline characters from the right of a string",
-	"private": false,
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/jmquigley/util.rstrip"
-	},
-	"bugs": {
-		"url": "https://github.com/jmquigley/util.rstrip/issues"
-	},
-	"engines": {
-		"node": ">=6.5"
-	},
-	"devDependencies": {
-		"ava": "^0.17.0",
-		"coveralls": "^2.11.15",
-		"nyc": "^10.1.2",
-		"xo": "^0.17.1"
-	},
-	"main": "index.js",
-	"scripts": {
-		"test": "xo && ./node_modules/.bin/nyc ava --verbose",
-		"report": "./node_modules/.bin/nyc report --reporter=html"
-	},
-	"xo": {
-		"env": {
-			"browser": true,
-			"node": true,
-			"es6": true
-		},
-		"global": [
-			"window",
-			"describe",
-			"it",
-			"JSON"
-		],
-		"rules": {
-			"space-before-function-paren": "off",
-			"unicorn/filename-case": [
-				"error",
-				{
-					"case": "snakeCase"
-				}
-			],
-			"arrow-parens": [
-				"error",
-				"as-needed"
-			]
-		}
-	}
+  "name": "util.rstrip",
+  "version": "0.0.3",
+  "author": "jmquigley <jmquigley@outlook.com>",
+  "description": "Removes newline characters from the right of a string",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmquigley/util.rstrip"
+  },
+  "bugs": {
+    "url": "https://github.com/jmquigley/util.rstrip/issues"
+  },
+  "engines": {
+    "node": ">=6.5"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "coveralls": "^2.11.15",
+    "nyc": "^10.1.2",
+    "xo": "^0.17.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ./node_modules/.bin/nyc ava --verbose",
+    "report": "./node_modules/.bin/nyc report --reporter=html"
+  },
+  "xo": {
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    },
+    "global": [
+      "window",
+      "describe",
+      "it",
+      "JSON"
+    ],
+    "rules": {
+      "space-before-function-paren": "off",
+      "unicorn/filename-case": [
+        "error",
+        {
+          "case": "snakeCase"
+        }
+      ],
+      "arrow-parens": [
+        "error",
+        "as-needed"
+      ]
+    }
+  }
 }
