@@ -13,7 +13,7 @@ test('stripping newlines #2', t => {
 	t.is(rstrip(s), 'line 1');
 });
 
-test('stripping newlines #3cl', t => {
+test('stripping newlines #3', t => {
 	let s = 'line 1\r\n';
 	t.is(rstrip(s), 'line 1');
 });
