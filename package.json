@@ -15,17 +15,24 @@
   "engines": {
     "node": ">=6.5"
   },
+  "dependencies": {
+    "expand-home-dir": "0.0.3",
+    "fs-extra": "^2.0.0",
+    "yargs": "^6.6.0"
+  },
   "devDependencies": {
     "ava": "^0.17.0",
     "coveralls": "^2.11.15",
     "nyc": "^10.1.2",
+    "util.pkgwrap": "0.0.2",
     "xo": "^0.17.1"
   },
   "main": "index.js",
   "scripts": {
-    "postinstall": "node cmd.js --postinstall",
-    "test": "node cmd.js --testing",
-    "report": "node cmd.js --reporting"
+    "postinstall": "pkgwrap --postinstall",
+    "test": "pkgwrap --testing",
+    "report": "pkgwrap --reporting",
+    "coverage": "pkgwrap --coverage"
   },
   "xo": {
     "env": {
@@ -52,10 +59,5 @@
         "as-needed"
       ]
     }
-  },
-  "dependencies": {
-    "expand-home-dir": "0.0.3",
-    "fs-extra": "^2.0.0",
-    "yargs": "^6.6.0"
   }
 }
