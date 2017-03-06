@@ -3,7 +3,7 @@
 
 > Removes newline characters from the right of a string
 
-Removes the `\n`, `\r`, or `\r\n` from the end of a string and returns it.
+Removes the `\n`, `\r`, or `\r\n` from the end of a string or Buffer and returns the new string.
 
 
 ## Installation
@@ -20,7 +20,19 @@ $ npm install --save-dev util.rstrip
 
 ## Example Usage
 
-    const rstrip = require('util.rstrip');
-    let s = rstrip('This is a test\r\n');
+#### From String
+```javascript
+const rstrip = require('util.rstrip');
+let s = rstrip('This is a test\r\n');
     
-    // returns the string "This is a test" without newlines
+// returns the string "This is a test" without newlines
+```
+
+#### From Buffer
+```javascript
+const rstrip = require('util.rstrip');
+let buf = new Buffer('This is a test\r\n');
+let s = rstrip(buf);
+    
+// returns the string "This is a test" without newlines
+```

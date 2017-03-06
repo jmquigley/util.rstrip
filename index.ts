@@ -1,3 +1,7 @@
-export function rstrip(s: string): string {
-	return s.toString().replace(/\r\n$|\n$|\r$/, '');
+export function rstrip(s: string | Buffer): string {
+	if (s instanceof Buffer) {
+		s = s.toString();
+	}
+
+	return s.replace(/\r\n$|\n$|\r$/, '');
 };
