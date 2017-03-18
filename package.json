@@ -1,6 +1,6 @@
 {
   "name": "util.rstrip",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "author": "jmquigley <jmquigley@outlook.com>",
   "description": "Removes newline characters from the right of a string",
   "private": false,
