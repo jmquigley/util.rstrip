@@ -16,7 +16,7 @@
     "node": ">=7.5"
   },
   "dependencies": {
-    "util.pkgwrap": "0.0.56"
+    "util.pkgwrap": "0.0.57"
   },
   "devDependencies": {
     "@types/node": "^7.0.23",
