@@ -30,7 +30,7 @@
   "main": "./index.js",
   "types": "./index.d.ts",
   "scripts": {
-    "all": "npm install && npm run clean && npm run lint && npm run build && npm test && npm run report",
+    "all": "yarn install && yarn run clean && yarn run lint && yarn run build && yarn test && yarn run report",
     "build": "pkgwrap --build",
     "clean": "pkgwrap --clean",
     "coverage": "pkgwrap --coverage",

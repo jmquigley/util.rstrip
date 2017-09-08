@@ -8,14 +8,16 @@ Removes the `\n`, `\r`, or `\r\n` from the end of a string or Buffer and returns
 
 ## Installation
 
+This module uses [yarn](https://yarnpkg.com/en/) to manage dependencies and run scripts for development.
+
 To install as a development dependency:
 ```
-$ npm install --save-dev util.rstrip
+$ yarn add --dev util.rstrip
 ```
 
 To build the app and run all tests:
 ```
-$ npm run all
+$ yarn run all
 ```
 
 ## Example Usage
