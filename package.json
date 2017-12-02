@@ -13,19 +13,16 @@
     "url": "https://github.com/jmquigley/util.rstrip/issues"
   },
   "engines": {
-    "node": ">=7.5"
-  },
-  "dependencies": {
-    "util.pkgwrap": "0.0.73"
+    "node": ">=7.x"
   },
   "devDependencies": {
     "@types/node": "^8.0.53",
-    "ava": "^0.23.0",
+    "ava": "^0.24.0",
     "coveralls": "^3.0.0",
     "nyc": "^11.3.0",
     "rimraf": "^2.6.2",
     "tslint": "^5.8.0",
-    "typescript": "^2.6.1"
+    "typescript": "^2.6.2"
   },
   "main": "./index.js",
   "types": "./index.d.ts",
@@ -35,7 +32,7 @@
     "clean": "pkgwrap --clean",
     "coverage": "pkgwrap --coverage",
     "lint": "pkgwrap --lint",
-    "postinstall": "pkgwrap --postinstall",
+		"preinstall": "yarn global add util.pkgwrap",
     "report": "pkgwrap --reporting",
     "test": "pkgwrap --testing --ava"
   }
