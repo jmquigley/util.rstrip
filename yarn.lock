@@ -4261,9 +4261,9 @@ util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
 
-util.pkgwrap@^0.0.89:
-  version "0.0.89"
-  resolved "https://registry.yarnpkg.com/util.pkgwrap/-/util.pkgwrap-0.0.89.tgz#c85aca6940d6c61e8e665b10a1c2dc56fdd47258"
+util.pkgwrap@^0.0.90:
+  version "0.0.90"
+  resolved "https://registry.yarnpkg.com/util.pkgwrap/-/util.pkgwrap-0.0.90.tgz#eea7f2ae5addf6506bf7229ac2f7ad308e8e7b12"
   dependencies:
     coveralls "^3.0.0"
     cpx "^1.5.0"
