@@ -1,6 +1,6 @@
 {
   "name": "util.rstrip",
-  "version": "0.0.38",
+  "version": "0.0.39",
   "author": "jmquigley <jmquigley@outlook.com>",
   "description": "Removes newline characters from the right of a string",
   "private": false,
@@ -26,26 +26,32 @@
   },
   "main": "./index.js",
   "types": "./index.d.ts",
-	"pkgwrap": {
-			"bail": true,
-			"cleanup": [
-					"index.d.ts",
-					"index.js",
-					"test.d.ts",
-					"test.js"
-			]
-	},
+  "pkgwrap": {
+    "bail": true,
+    "cleanup": [
+      "index.d.ts",
+      "index.js",
+      "test.d.ts",
+      "test.js"
+    ]
+  },
   "jest": {
     "collectCoverage": true,
     "coveragePathIgnorePatterns": [
       "<rootDir>/node_modules/"
     ],
-    "moduleFileExtensions": ["js", "jsx", "ts", "tsx", "json"],
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "ts",
+      "tsx",
+      "json"
+    ],
     "notify": false,
     "testPathIgnorePatterns": [
       "<rootDir>/node_modules/"
     ],
-		"testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
     "transform": {
       "^.+\\.ts?$": "typescript-babel-jest"
     },
