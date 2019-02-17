@@ -31,14 +31,7 @@
 		"tslint": "^5.12.1",
 		"tslint-config-prettier": "^1.18.0",
 		"typescript": "^3.3.3",
-		"util.pkgwrap": "^0.0.97"
-	},
-	"pkgwrap": {
-		"bail": true,
-		"cleanup": [
-			"index.d.ts",
-			"index.js"
-		]
+		"util.pkgwrap": "^0.0.98"
 	},
 	"scripts": {
 		"all": "yarn install && yarn prettier && yarn build && yarn test && yarn minify",

@@ -5224,10 +5224,10 @@ util-deprecate@~1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-util.pkgwrap@^0.0.97:
-  version "0.0.97"
-  resolved "https://registry.yarnpkg.com/util.pkgwrap/-/util.pkgwrap-0.0.97.tgz#9f1f5c9e9dd03d5984a119bbdb619fdfa6f9c18e"
-  integrity sha512-TlwwCM2uhVwVTZK9BpNYVe+tEGvH6b6HsT62Pl7zfExJnDhKaBzQxubX8byk7bFQEFCH6Bo/PWVLQE30stemjA==
+util.pkgwrap@^0.0.98:
+  version "0.0.98"
+  resolved "https://registry.yarnpkg.com/util.pkgwrap/-/util.pkgwrap-0.0.98.tgz#d672f6aab1d00a745e2f19fae3622a5762be17f0"
+  integrity sha512-oe2xn4PlAcXbKnBw/iLPayPfIcdHW4WSxcN36H6zsns3aIxCJDbfYQK7ouH4mQDpJAHPHEqICDFyTP55K9XUvg==
   dependencies:
     coveralls "^3.0.2"
     cpx "^1.5.0"

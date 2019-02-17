@@ -18,16 +18,16 @@ test("stripping newlines #3", () => {
 });
 
 test("stripping newlines #1 (Buffer)", () => {
-	const s: Buffer = new Buffer("line 1\n");
+	const s: Buffer = new Buffer.from("line 1\n");
 	expect(rstrip(s)).toBe("line 1");
 });
 
 test("stripping newlines #2 (Buffer)", () => {
-	const s: Buffer = new Buffer("line 1\r");
+	const s: Buffer = new Buffer.from("line 1\r");
 	expect(rstrip(s)).toBe("line 1");
 });
 
 test("stripping newlines #3 (Buffer)", () => {
-	const s: Buffer = new Buffer("line 1\r\n");
+	const s: Buffer = new Buffer.from("line 1\r\n");
 	expect(rstrip(s)).toBe("line 1");
 });
