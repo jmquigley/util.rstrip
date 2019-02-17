@@ -3,5 +3,5 @@ export function rstrip(s: string | Buffer): string {
 		s = s.toString();
 	}
 
-	return s.replace(/\r\n$|\n$|\r$/, '');
+	return s.replace(/\r\n$|\n$|\r$/, "");
 }
