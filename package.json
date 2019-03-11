@@ -50,7 +50,6 @@
 		"clean:dist": "yarn clean && rimraf node_modules/ yarn.lock",
 		"coverage": "pkgwrap --coverage --jest",
 		"lint": "pkgwrap --lint",
-		"prepublishOnly": "yarn run all",
 		"prettier": "prettier --write \"**/*.{ts,tsx,js,json,yaml,yml,css}\"",
 		"test": "jest"
 	}
