@@ -12,7 +12,6 @@
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"removeComments": false,
-		"skipLibCheck": true,
 		"sourceMap": true,
 		"strictNullChecks": false,
 		"suppressImplicitAnyIndexErrors": true,

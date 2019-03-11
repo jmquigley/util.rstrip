@@ -42,7 +42,7 @@
 		"util.pkgwrap": "^0.0.104"
 	},
 	"scripts": {
-		"all": "yarn install && yarn build && yarn test",
+		"all": "yarn install && yarn build && yarn test && yarn manifest",
 		"build": "yarn clean && yarn prettier && yarn lint && yarn build:es && yarn build:umd",
 		"build:es": "tsc -p . && minify index.js --out-file index.es.min.js",
 		"build:umd": "babel index.js --out-file index.umd.min.js",
@@ -50,6 +50,7 @@
 		"clean:dist": "yarn clean && rimraf node_modules/ yarn.lock",
 		"coverage": "pkgwrap --coverage --jest",
 		"lint": "pkgwrap --lint",
+		"manifest": "npm pack --dry-run",
 		"prettier": "prettier --write \"**/*.{ts,tsx,js,json,yaml,yml,css}\"",
 		"test": "jest"
 	}
