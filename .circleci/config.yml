@@ -32,11 +32,6 @@ jobs:
                   root: ~/repo
                   paths: .
 
-    test:
-        <<: *defaults
-        steps:
-          - run: echo "blah"
-
     deploy:
         <<: *defaults
         steps:
@@ -44,7 +39,7 @@ jobs:
                   at: ~/repo
             - run:
                   name: Authenticate with registry
-                  command: echo "//registry/npmjs.org/:_authToken=$npm_TOKEN" > ~/repo/.npmrc
+                  command: printf "//registry/npmjs.org/:_authToken=$NPM_TOKEN\npackage-lock=false" > ~/repo/.npmrc
             - run:
                   name: Publish package
                   command: npm publish
@@ -57,9 +52,6 @@ workflows:
                   filters:
                       tags:
                           only: /.*/
-            - test:
-                  requires:
-                      - build
             - deploy:
                   requires:
                       - build
