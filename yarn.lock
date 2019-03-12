@@ -871,7 +871,7 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-11.10.5.tgz#fbaca34086bdc118011e1f05c47688d432f2d571"
   integrity sha512-DuIRlQbX4K+d5I+GMnv+UfnGh+ist0RdlvOp+JZ7ePJ6KQONCFQv/gKYSU1ZzbVdFSUCKZOltjmpFAGGv5MdYA==
 
-"@types/node@^11.11.0":
+"@types/node@^11.11.1":
   version "11.11.1"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-11.11.1.tgz#9ee55ffce20f72e141863b0036a6e51c6fc09a1f"
   integrity sha512-2azXFP9n4aA2QNLkKm/F9pzKxgYj1SMawZ5Eh9iC21RH3XNcFsivLVU2NhpMgQm7YobSByvIol4c42ZFusXFHQ==
@@ -3437,7 +3437,7 @@ jest-worker@^24.4.0:
     merge-stream "^1.0.1"
     supports-color "^6.1.0"
 
-jest@^24.3.1:
+jest@^24.4.0:
   version "24.4.0"
   resolved "https://registry.yarnpkg.com/jest/-/jest-24.4.0.tgz#688b71a2dadd41e26d0cfc04e1ddcacf30a1efbb"
   integrity sha512-gAGfjvu8hHN0N6/aDyCBpncWWBcpY6wq69Msq/I6Xd763q/ZYBEMh0SKUomrViFoJ/dyistA6b4aJh8e+5QMyw==
@@ -5517,10 +5517,10 @@ util-deprecate@~1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-util.pkgwrap@^0.0.104:
-  version "0.0.104"
-  resolved "https://registry.yarnpkg.com/util.pkgwrap/-/util.pkgwrap-0.0.104.tgz#08f3b48b6fa9da85f35bfc3ea4ac15645d5b9be0"
-  integrity sha512-XPz+MeNWMM5BnFXRVcp8gNliHnyfVAqHU2RXvuZ+xD8RqptV9sr5cniOUCJ0uG45A++athZhIYPGsnjx69hElg==
+util.pkgwrap@^0.0.105:
+  version "0.0.105"
+  resolved "https://registry.yarnpkg.com/util.pkgwrap/-/util.pkgwrap-0.0.105.tgz#3c76e1f091b7155c5d95f7692512590e816ccf2c"
+  integrity sha512-UGkfn2N2KviwlMfz8yakXcxJWqcWbYgD4uBZ8Lc21LxkF7dTHea8V46dEAhcFObVRfb1Jwhu0SXfGZXfcHhMjA==
   dependencies:
     coveralls "^3.0.3"
     cpx "^1.5.0"
