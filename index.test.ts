@@ -1,6 +1,6 @@
 "use strict";
 
-import {rstrip} from "./index";
+import { rstrip } from "./index";
 
 test("stripping newlines #1", () => {
 	const s = "line 1\n";
