@@ -7,6 +7,9 @@ on:
 
 jobs:
   build:
+    env:
+      YARN_VERSION: 1.21.0
+
     runs-on: ubuntu-latest
 
     strategy:
@@ -19,5 +22,5 @@ jobs:
         uses: actions/setup-node@v1
         with:
           version: ${{ matrix.node-version }}
-      - run: npm install -g yarn@1.21.0
+      - run: npm install -g yarn@${YARN_VERSION}
       - run: yarn all
